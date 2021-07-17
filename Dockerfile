@@ -1,6 +1,6 @@
 FROM alpine:3.12.1
 
-MAINTAINER Eldad Assis <eldad.assis@gmail.com>
+LABEL maintainer Haggai Philip Zagury <hagzag@tikalk.dev>
 
 # Install postfix and supervisor
 RUN apk add --no-cache \
