@@ -37,6 +37,9 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 
+
+imagePullSecrets: 
+  - name: registry-credentials
 # Expose pods with service on port 25
 service:
   type: ClusterIP
